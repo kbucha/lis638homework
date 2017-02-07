@@ -9,8 +9,14 @@ Homework #1
 print "Challenge 1</br>";
 
 	$change = 172;
+	$dollar = 172 / 100;
+	$quarter = 72 / 25;
+	$dime = 12 / 10;
+	$nickel = 0;
+	$penny = 2;
 	
 	echo "You are due $change cents</br>";
+	echo "Your change is: $dollar dollar, $quarter quarters, $dime dime, $nickel nickel and $penny pennies."
 
 
 ?>
